@@ -1,0 +1,127 @@
+{
+    "appversions": [
+        {
+            "url": "",
+            "version": "1.0.1",
+            "target": "",
+            "class": ""
+        },
+        {
+            "url": "",
+            "version": "1.0.2",
+            "target": "",
+            "class": ""
+        },
+        {
+            "url": "",
+            "version": "1.0.7",
+            "target": "",
+            "class": ""
+        },
+        {
+            "url": "",
+            "version": "2.0.1",
+            "target": "",
+            "class": ""
+        }
+    ],
+
+    "appnotes": [
+        {
+            "url": "",
+            "text": "All incoming tickets categorized as 'incident' will be addressed within 24 hours of submission. Urgent incidents will be prioritized and resolved within 4 hours. New incidents will be acknowledged immediately upon submission.",
+            "target": "",
+            "class": ""
+        },
+        {
+            "url": "",
+            "text": "Tickets marked as 'escalated' will undergo immediate review by a senior support specialist. Escalations will be handled within 1 hour of receipt during regular business hours. After hours, escalations will be addressed within 2 hours.",
+            "target": "",
+            "class": ""
+        }
+    ],
+
+    "requests": [
+        {
+            "url": "",
+            "request": "Request number 001",
+            "target": "",
+            "class": "form-check-input",
+            "type": "radio"
+        },
+        {
+            "url": "",
+            "request": "Request number 002",
+            "target": "",
+            "class": "form-check-input",
+            "type": "radio"
+        },
+        {
+            "url": "",
+            "request": "Request number 003",
+            "target": "",
+            "class": "form-check-input",
+            "type": "radio"
+        },
+        {
+            "url": "",
+            "request": "Request number 004",
+            "target": "",
+            "class": "form-check-input",
+            "type": "radio"
+        },
+        {
+            "url": "",
+            "request": "Request number 005",
+            "target": "",
+            "class": "form-check-input",
+            "type": "radio"
+        }
+    ],
+
+    "overview": [
+        {
+            "unresolved": "###",
+            "overdue": "16",
+            "open": "43",
+            "on-hold": "64"
+        }
+    ],
+
+    "tickets": [
+        {
+            "status": "Waiting on Feature Request",
+            "count": 4238
+        },
+        {
+            "status": "Awaiting Customer Response",
+            "count": 1005
+        },
+        {
+            "status": "Awaiting Developer Fix",
+            "count": 914
+        },
+        {
+            "status": "Pending",
+            "count": 281
+        }
+    ],
+
+    "tasks": [
+        {
+            "text": "Create new task"
+        },
+        {
+            "text": "Finish ticket update",
+            "priority": "URGENT"
+        },
+        {
+            "text": "Create new ticket example",
+            "priority": "NEW"
+        },
+        {
+            "text": "Update ticket report",
+            "priority": "DEFAULT"
+        }
+    ]
+}

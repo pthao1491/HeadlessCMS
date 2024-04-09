@@ -1,0 +1,125 @@
+$nav-color: #363740;
+$bg-color: #F7F8FC;
+$bold: 700;
+
+@mixin text-styles($weight, $size, $color, $line-height, $letter-spacing) {
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin border-styles($height, $color, $opacity) {
+    height: $height;
+    border: 1px solid $color;
+    opacity: $opacity;
+}
+
+@mixin link-styles {
+    color: #A4A6B3;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+main {
+    font-family: 'Mulish';
+    font-style: normal;
+    display: flex;
+
+    .content {
+        background-color: $bg-color;
+    }
+}
+
+nav {
+    display: none;
+    background-color: $nav-color;
+    width: 30%;
+    max-width: 255px;
+
+    .logo {
+        padding: 37px 18px 59px 32px;
+    }
+
+    .nav-title {
+        @include text-styles($bold, 19px, #A4A6B3, 24px, 0.4px);
+        opacity: 0.7;
+    }
+
+    hr {
+        @include border-styles(0px, #DFE0EB, 0.1);
+    }
+
+    .nav-link {
+        @include text-styles(400, 16px, #A4A6B3, 20px, 0.2px);
+        padding: 18px 32px;
+        @include link-styles;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #434449;
+    }
+
+    .bi {
+        vertical-align: -.125em;
+        pointer-events: none;
+        fill: currentColor;
+    }
+
+    
+    @media only screen and (max-width: 768px) {
+        display: none;
+        width: 15%;
+
+        .nav-text {
+            display: none;
+        }
+    }
+}
+
+header {
+    .heading {
+        @include text-styles($bold, 24px, #000000, 30px, 0.3px);
+    }
+
+    .user {
+        @include text-styles($bold, 14px, #000000, 20px, 0.2px);
+        text-align: right;
+    }
+}
+
+.item-header {
+    display: none;
+
+    @media only screen and (min-width: 650px) {
+        display: inline;
+    }
+}
+
+.ticket-block {
+    .highlighted {
+        color: #3751FF;
+        border-color: #3751FF;
+    }
+}
+
+.graph {
+    .graph-legend {
+        @include text-styles($bold, 12px, #000000, 15px, 0.1px);
+    }
+
+    .graph-img {
+        max-width: 686px;
+        width: 80vw;
+    }
+}
+
+.badge {
+    @include text-styles($bold, 11px, #000000, auto, 0.5px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

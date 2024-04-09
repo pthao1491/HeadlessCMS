@@ -1,0 +1,123 @@
+
+main {
+  font-family: 'Mulish';
+  font-style: normal;
+  display: flex; }
+  main .content {
+    background-color: #F7F8FC; }
+
+    
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+.badge.bg-warning {
+    background-color: rgb(255, 177, 7);
+}
+
+.badge.bg-success {
+    background-color: green;
+}
+
+.badge.bg-secondary {
+    background-color: grey;
+}
+nav {
+  display: none;
+  background-color: #363740;
+  width: 30%;
+  max-width: 255px; }
+
+nav .logo {
+  padding: 37px 18px 59px 32px; }
+nav .nav-tiltle {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #9FA2B4;
+  opacity: 0.7; }
+
+nav hr {
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 0px/2);
+  border: 1px solid #DFE0EB;
+  opacity: 0.1; }
+
+nav .nav-link {
+  color: #A4A6B3;
+  padding: 18px 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px; }
+
+nav .nav-pills .nav-link.active, nav .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #434449; }
+
+nav .bi {
+  vertical-align: -.125em;
+  pointer-events: none;
+  fill: currentColor; }
+
+header .heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px; }
+
+header .user {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px; }
+
+.item-header {
+  display: none; }
+
+.ticket-block :hover {
+  color: #3751FF;
+  border-color: #3751FF; ;
+  }
+
+.badge {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px; }
+
+.graph .graph-legend {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1px; }
+
+.graph .graph-img {
+  max-width: 686px;
+  width: 80vw; }
+
+.ticket-logo {
+  max-width: 200px; }
+
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none;
+    width: 15%; }
+    nav .nav-text {
+      display: none; } }
+
+@media only screen and (min-width: 650px) {
+  nav {
+    display: flex; }
+  .item-header {
+    display: inline; } }
